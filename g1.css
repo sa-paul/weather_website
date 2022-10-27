@@ -1,0 +1,135 @@
+
+h1{
+    text-align: center;
+    border: 3px solid grey;
+    border-radius: 20px;
+    box-shadow: 0 0 30px blue;
+    font-size: 50px;
+    display: inline-block;
+    background: silver;
+    
+}
+body{
+
+    text-align: center;
+   margin: 0;
+   align-items: center;
+   display: flex;
+
+   height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100vw;
+}
+#tnum{
+    margin: 30px;
+    font-size: 60px;
+
+}
+.card{
+    border: 3px solid rgb(5, 14, 56);
+    
+    width: 100%;
+   max-width:300px;
+   display: inline-block;
+    margin: solid;
+    background: #5f2de7d0;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(9, 10, 104);
+    
+    padding: 30px;
+   
+    
+
+}
+
+.temp{
+    font-size: 50px;
+    color: white;
+    font-weight: 900;
+    font-family: 'Festive', cursive;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info{
+    color: white;
+
+}
+.desc{
+    font-size: 30px;
+    font-style: calc();
+    font-weight: bold;
+    font-family: cursive;
+
+}
+.inputvalue {
+    margin-top: 20px;
+    text-decoration: none;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+   background:#f00db7;
+   color:white;
+      font-size:30px;
+    margin: 0;
+    border: 3px solid rgb(37, 6, 66);
+    text-align: center;
+
+}
+i{
+    font-size: 30px;
+    color: white;
+}
+.button{
+    border-radius: 50px;
+   padding:10px;
+   background:#faf6052b;
+   color:rgb(81, 202, 44);
+   border:3px solid rgb(7, 4, 3);
+   font-size:20px;
+    cursor: pointer;
+   
+   
+    
+}
+.inputvalue:hover{
+    background-color: rgb(78, 76, 76);
+}
+.button:hover{
+    font-size: 21px;
+    background: rgb(109, 107, 107);
+}
+.inputvalue input{
+    margin-top: 50px;
+    border: 3px solid rgb(188, 173, 202);
+    background: white;
+}
+
+.info{
+    margin: 30px;
+}
+.wind {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5px;
+
+}
+
+.temp {
+    margin: 20px;
+}
+
+.desc {
+    margin: 20px;
+}
+.humidity{
+    margin: 20px;
+    font-size: 25px;
+}
+
+
+
+
+
